@@ -1,6 +1,7 @@
 package Collections;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ArrayListDemo {
@@ -36,8 +37,21 @@ public class ArrayListDemo {
 		System.out.println(al);
 		System.out.println(all);*/
 		
-		/*for(int i=0; i<al.size(); i++)
-			System.out.println(al(i));*/
+		/*for(int i=0; i<al.size(); i++) {
+			System.out.println(al.get(i));
+		}*/
+			
+			for(Object i : all) {
+				System.out.println(i);
+			}
+			
+			al.set(3, "Vidya");
+			System.out.println(al);
+			
+			Iterator i = al.iterator();
+			while(i.hasNext()) {
+				System.out.println(i.next());
+			}
 
 	}
 
