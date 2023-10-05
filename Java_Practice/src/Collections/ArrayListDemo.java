@@ -30,11 +30,13 @@ public class ArrayListDemo {
 			System.out.println(al);
 			//System.out.println(al.toArray());
 			System.out.println(al.equals(all));
+			al.removeAll(all);
+			System.out.println(al);
 		/*//al.removeAll(all);
 			//al.retainAll(all);
 			//al.clear();
 			System.out.println(al.containsAll(all));
-		System.out.println(al);
+		//al.removeAll(all);//al.removeAll(all);
 		System.out.println(all);*/
 		
 		/*for(int i=0; i<al.size(); i++) {
@@ -48,6 +50,7 @@ public class ArrayListDemo {
 			al.set(3, "Vidya");
 			System.out.println(al);
 			
+		
 			Iterator i = al.iterator();
 			while(i.hasNext()) {
 				System.out.println(i.next());
