@@ -8,9 +8,9 @@ public class MapExample2 {
 		  map.put(100,"Amit");  
 		  map.put(101,"Vijay");  
 		  map.put(102,"Rahul");  
-		  map.put(102,"Rahul");  
 		  System.out.println(map);  
-		 System.out.println(map.entrySet());
+		
+		 
 		
 
 	}
